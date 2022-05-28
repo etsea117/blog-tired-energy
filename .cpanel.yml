@@ -2,6 +2,6 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/tirervyq/blog.tired.energy/
-    - /bin/cp /home/tirervyq/repos/index.html $DEPLOYPATH
-    - /bin/cp -R /home/tirervyq/repos/assets $DEPLOYPATH
-    - /bin/cp -R /home/tirervyq/repos/posts $DEPLOYPATH
+    - /bin/cp /home/tirervyq/repositories/blog-tired-energy/index.html $DEPLOYPATH
+    - /bin/cp -R /home/tirervyq/repositories/blog-tired-energy/assets $DEPLOYPATH
+    - /bin/cp -R /home/tirervyq/repositories/blog-tired-energy/posts $DEPLOYPATH
